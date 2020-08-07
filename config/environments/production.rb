@@ -103,5 +103,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Specify active_job sidekiq adapter
-  #config.active_job.queue_adapter = :sidekiq
+  config.active_job.queue_adapter = :sidekiq
 end
